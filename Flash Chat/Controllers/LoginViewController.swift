@@ -21,4 +21,8 @@ class LoginViewController: UIViewController {
         
     }
     
+    deinit {
+        print("Login View controller is being deallocated")
+    }
+    
 }
